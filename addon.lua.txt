@@ -1,4 +1,4 @@
--- Atlatic Notifier V6 (Blue-White, Hide Anim, Sorted Logs, Join Status, Self ESP)
+-- Kawaifu Notifier V6 (Blue-White, Hide Anim, Sorted Logs, Join Status, Self ESP)
 local HttpService = game:GetService("HttpService")
 local CoreGui = game:GetService("CoreGui")
 local TweenService = game:GetService("TweenService")
@@ -7,7 +7,7 @@ local TeleportService = game:GetService("TeleportService")
 local SoundService = game:GetService("SoundService")
 local UserInputService = game:GetService("UserInputService")
 
-local UI_NAME = "AtlaticNotifier_GUI"
+local UI_NAME = "Kawaifu Notifier_GUI"
 if CoreGui:FindFirstChild(UI_NAME) then CoreGui[UI_NAME]:Destroy() end
 if SoundService:FindFirstChild("AtlaticNotifSound") then SoundService.AtlaticNotifSound:Destroy() end
 
@@ -218,7 +218,7 @@ local Logo = Instance.new("TextLabel")
 Logo.Size = UDim2.new(1, 0, 0, 45)
 Logo.Position = UDim2.new(0, 0, 0, 8)
 Logo.BackgroundTransparency = 1
-Logo.Text = "Atlatic"
+Logo.Text = "KAWAIFU"
 Logo.Font = Enum.Font.GothamBlack
 Logo.TextSize = 24
 Logo.TextColor3 = T.Accent2
@@ -338,7 +338,7 @@ MobileToggle.Size = UDim2.new(0, 40, 0, 40)
 MobileToggle.Position = UDim2.new(0, 10, 0, 10)
 MobileToggle.BackgroundColor3 = T.BgCard
 MobileToggle.BorderSizePixel = 0
-MobileToggle.Text = "L"
+MobileToggle.Text = "K"
 MobileToggle.Font = Enum.Font.GothamBlack
 MobileToggle.TextSize = 20
 MobileToggle.TextColor3 = T.Accent2
